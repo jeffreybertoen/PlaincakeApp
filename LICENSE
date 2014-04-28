@@ -1,6 +1,17 @@
+PlaincakeApp is distributed without restriction as defined in the
+PancakeApp License found at (https://pancakeapp.com/license) accessed on
+the 28th of April, 2014, where it states in partial: 'the distribution of 
+themes and other add-ons to the Software written using APIs and other 
+programmatic interfaces published by the Author are allowed'.
+
+Consequently, this additional work herein classified as a theme and add-on
+to the software PancakeApp, written with the intent to utilise existing back end
+functionality, referred to within the scope of the PancakeApp License as 'other 
+programmatic interfaces' will be licensed under The MIT License (MIT).
+
 The MIT License (MIT)
 
-Copyright (c) 2014 Hypernex
+Copyright (c) 2014 Hypernex // Andrew Tajsic
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
