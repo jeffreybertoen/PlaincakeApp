@@ -1,0 +1,109 @@
+/* 
+  PlaincakeApp - Hypernex // Andrew Tajsic
+  Backend Custom CSS
+  2014
+*/
+
+/*
+ Colour Scheme
+  Blue
+    #29ABE2
+    #0071BC
+  Pink
+    #E7415D
+
+/* Stacked Edits */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+*:not(i){
+  font-family: 'Open Sans', sans-serif !important;  
+}
+*:not(strong){
+  font-weight: 400 !important;
+}
+body{
+  background: #FDFDFD;
+}
+#header{
+  margin: 0px 0 15px 0;
+  padding-top: 10px;
+  background: #0071BC;
+}
+#header .ttl{
+  color: white;
+  border-bottom: 2px solid rgba(255,255,255,0.2);
+}
+.content-wrapper{
+  border: 1px solid rgba(0,0,0,0.05);
+  border-radius: 0px;
+}
+.top-bar{
+  border-bottom: 1px solid rgba(200,200,200,1);
+}
+.top-bar > section > ul > li > a:not(.button){
+  height: 50px;
+  border-bottom: 1px solid rgba(200,200,200,1);
+  padding-top: 1px;
+  font-size: 15px;
+}
+.top-bar ul > li a:not(.button){
+  color: rgba(50,50,50,1) !important;
+  font-weight: 400 !important;
+}
+.top-bar > section > ul > li > a:not(.button):hover{
+  color: rgba(100,100,100,1) !important;
+}
+.top-bar ul > li.has-dropdown a:after{
+  border-top-color: rgba(75,75,75,1) !important;
+}
+.top-bar ul .count, .top-bar ul .sub-level-badge{
+  background: rgba(35, 136, 215, 1);
+  padding: 3px 5px;
+}
+.top-bar ul li ul li{
+  border-left: 1px solid rgba(200,200,200,1);
+  border-right: 1px solid rgba(200,200,200,1);
+}
+.top-bar ul li ul li:last-child{
+  border-bottom: 1px solid rgba(200,200,200,1);
+}
+.top-bar ul li.active{
+  background: rgba(215,215,215,1) !important;
+}
+#search-form div.quick-menu a#qm.active, #search-form div.quick-menu a#qm:hover, #search-form ul.f-dropdown{
+  background: #E7415D;
+}
+#search-form ul.f-dropdown a:hover{
+  color: #E7415D;
+}
+.top-bar ul li ul li{
+  padding: 0px !important;
+}
+.top-bar ul li ul li a{
+  padding: 10px 40px 10px 15px !important;
+}
+.top-bar section li ul li:hover > a{
+  color: rgba(100,100,100,1) !important;
+}
+.top-bar ul li ul li a:hover, .top-bar ul li ul li:hover{
+  background: rgba(215,215,215,1) !important;
+}
+.top-bar .has-dropdown .dropdown .pancake-navigation-label{
+  padding: 10px 15px;
+  color: #0071BC;
+  border-bottom: 1px solid #0071BC;
+}
+.form-holder select{
+  border-radius: 0px;
+}
+
+/* Foundation Edits */
+div.alert-box{
+  border-radius: 0px;
+}
+.top-bar ul > li.has-dropdown .dropdown{
+  margin-top: -1px;
+}
+.blue-btn{
+  border-radius: 0px;
+}
